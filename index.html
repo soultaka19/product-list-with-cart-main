@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Desserts Menu</h1>
+        <button class="menu-button">Rafraichir</button>
+      </header>
+      <main class="main-content">
+        <div class="grid-container">
+          <!-- Dessert Items -->
+        </div>
+        <div class="cart">
+          <h2>Votre panier (<span id="cart-count">0</span>)</h2>
+          <ul id="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+          </ul>
+          <div class="total">
+            <span>Order Total</span>
+            <span id="cart-total">$0.00</span>
+          </div>
+          <button class="confirm-button">Confirm Order</button>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="./src/js/card.js"></script>
+  </body>
+</html>
